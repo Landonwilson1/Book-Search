@@ -10,10 +10,8 @@ const resolvers = {
         .select('-__v -password').populate('bookSchema')
         return userData;
       }
-
       throw new AuthenticationError('Not logged in');
     },
-  },
   users: async () => {
     return User.find()
       .select('-__v -password')
@@ -24,6 +22,8 @@ const resolvers = {
       .select('-__v -password')
       .populate('bookSchema')
   },
+  },
+
 
   Mutation: {
     addUser: async (parent, args) => {
