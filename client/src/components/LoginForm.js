@@ -2,10 +2,9 @@
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-import { loginUser } from '../utils/API';
 import Auth from '../utils/auth';
 
-import {userMutation } from '@apollo/client';
+import { useMutation } from '@apollo/react-hooks';
 import { LOGIN_USER } from '../utils/mutations';
 
 const LoginForm = () => {
@@ -35,7 +34,7 @@ const LoginForm = () => {
       });
 
       Auth.login(data.login.token);
-      
+
     } catch (err) {
       console.error(err);
       setShowAlert(true);
