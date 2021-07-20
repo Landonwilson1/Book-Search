@@ -19,5 +19,13 @@
     "apollo-server-express": "^2.25.2",
     "express": "^4.17.1",
     "graphql": "^15.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Landonwilson1/MERN-Book-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Landonwilson1/MERN-Book-Search/issues"
+  },
+  "homepage": "https://github.com/Landonwilson1/MERN-Book-Search#readme"
 }
