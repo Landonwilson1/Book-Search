@@ -3,11 +3,15 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Desciption 
-  This application uses MERN stack to create a book search engine. Users can Log in or sign up to save books to their collection
+  This application uses MERN stack to create a book search engine. Users can Log in or sign up to save books to their collection. Deployed appliaction below.
+  
+  [Book Finder](https://booksearchlw.herokuapp.com/)
+  
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Screenshot](#screenshot
   - [Questions](#questions)
   - [License](#License)
 
@@ -15,7 +19,10 @@
   Clone repo, npm i, run locally with npm run dev from root
 
   ## Usage 
-  [Book Finder](booksearchlw.herokuapp.com_.png)
+  [Book Finder](https://booksearchlw.herokuapp.com/)
+  
+  ## Screenshot
+  ![Book Finder](booksearchlw.herokuapp.com_.png)
 
   ## Questions 
   If you have any questions reach out to me at: </br>
