@@ -11,7 +11,7 @@
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Screenshot](#screenshot
+  - [Screenshot](#screenshot)
   - [Questions](#questions)
   - [License](#License)
 
