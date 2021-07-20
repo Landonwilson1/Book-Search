@@ -16,7 +16,7 @@
   - [License](#License)
 
   ## Installation 
-  Clone repo, npm i, run locally with npm run dev from root
+  Clone repo, ```npm i```, run locally with ```npm run dev``` from root
 
   ## Usage 
   [Book Finder](https://booksearchlw.herokuapp.com/)
